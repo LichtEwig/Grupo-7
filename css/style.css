@@ -1,0 +1,68 @@
+*{
+    margin:3;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.padre{
+    background-image:url("https://w0.peakpx.com/wallpaper/893/702/HD-wallpaper-nail-spa-hands-beauty-spa-nail.jpg");
+    font-family:Arial, Helvetica, sans-serif Arial;
+    display: grid;
+    color:rgb(255, 255, 255);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "header header header"
+    "sectionA sectionA aside"
+    "sectionB sectionB aside"
+    "article1 article2 aside"
+    "footer footer footer"
+    ;
+}
+.header{
+    background-color: rgb(119, 65, 182);
+    grid-area: header;
+    margin: 10px;
+    padding:10px;
+}
+.sectionA{
+    background-color: rgb(69, 19, 207);
+    grid-area:sectionA ;
+    margin: 10px;
+    padding:10px;
+}
+.sectionB{
+    background-color: rgb(89, 59, 197);
+    grid-area:sectionB ;
+    margin: 10px;
+    padding:10px;
+}
+.article1{
+    background-color: rgb(177, 42, 218);
+    grid-area: article1;
+    margin: 10px;
+    padding:10px;
+}
+.article2{
+    background-color: rgb(221, 98, 211);
+    grid-area: article2;
+    margin: 10px;
+    padding:10px;
+}
+.aside{
+    background-color: rgb(214, 100, 119);
+    grid-area: aside;
+    margin: 10px;
+    padding:20px;
+}
+.footer{
+    background-color: darkmagenta;
+    grid-area: footer;
+    margin: 10px;
+    padding:20px;
+}
+h2{
+    margin: 10px;
+    padding:10px;
+} 
